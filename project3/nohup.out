@@ -1,0 +1,397 @@
+[I 16:55:17.848 NotebookApp] Serving notebooks from local directory: /Users/revanth/workspace/data-mining/project3
+[I 16:55:17.848 NotebookApp] Jupyter Notebook 6.5.4 is running at:
+[I 16:55:17.848 NotebookApp] http://localhost:8888/?token=1c41da56a1a969a30c3f791a77dfa6b28aa00928e0a454e5
+[I 16:55:17.848 NotebookApp]  or http://127.0.0.1:8888/?token=1c41da56a1a969a30c3f791a77dfa6b28aa00928e0a454e5
+[I 16:55:17.848 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 16:55:17.849 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/revanth/Library/Jupyter/runtime/nbserver-28803-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=1c41da56a1a969a30c3f791a77dfa6b28aa00928e0a454e5
+     or http://127.0.0.1:8888/?token=1c41da56a1a969a30c3f791a77dfa6b28aa00928e0a454e5
+[W 16:55:34.720 NotebookApp] Notebook Untitled.ipynb is not trusted
+[I 16:55:34.759 NotebookApp] Kernel started: 8bb4edf5-d691-4c81-942f-fecaef46626d, name: cse546-data-mining
+[I 16:57:34.758 NotebookApp] Saving file at /Untitled.ipynb
+/Users/revanth/.venvs/cse546-data-mining/lib/python3.10/site-packages/nbformat/__init__.py:129: MissingIDFieldWarning: Code cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+  validate(nb)
+/Users/revanth/.venvs/cse546-data-mining/lib/python3.10/site-packages/notebook/services/contents/manager.py:353: MissingIDFieldWarning: Code cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+  validate_nb(model['content'])
+[I 16:59:35.645 NotebookApp] Saving file at /Untitled.ipynb
+[C 17:07:19.498 NotebookApp] received signal 15, stopping
+[I 17:07:19.501 NotebookApp] Shutting down 1 kernel
+[I 17:07:19.503 NotebookApp] Kernel shutdown: 8bb4edf5-d691-4c81-942f-fecaef46626d
+[I 17:07:19.718 NotebookApp] Shutting down 0 terminals
+
+  _   _          _      _
+ | | | |_ __  __| |__ _| |_ ___
+ | |_| | '_ \/ _` / _` |  _/ -_)
+  \___/| .__/\__,_\__,_|\__\___|
+       |_|
+                       
+Read the migration plan to Notebook 7 to learn about the new features and the actions to take if you are using extensions.
+
+https://jupyter-notebook.readthedocs.io/en/latest/migrate_to_notebook7.html
+
+Please note that updating to Notebook 7 might break some of your extensions.
+
+[I 00:34:45.725 NotebookApp] Serving notebooks from local directory: /Users/revanth/workspace/data-mining/project3
+[I 00:34:45.725 NotebookApp] Jupyter Notebook 6.5.4 is running at:
+[I 00:34:45.725 NotebookApp] http://localhost:8888/?token=d9942f733a99e870fa3137f5fd1b58a16da0489818813ab4
+[I 00:34:45.725 NotebookApp]  or http://127.0.0.1:8888/?token=d9942f733a99e870fa3137f5fd1b58a16da0489818813ab4
+[I 00:34:45.725 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 00:34:45.728 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/revanth/Library/Jupyter/runtime/nbserver-66699-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=d9942f733a99e870fa3137f5fd1b58a16da0489818813ab4
+     or http://127.0.0.1:8888/?token=d9942f733a99e870fa3137f5fd1b58a16da0489818813ab4
+[W 15:49:37.367 NotebookApp] Notebook assignment3.ipynb is not trusted
+[I 15:49:37.443 NotebookApp] Kernel started: ecf49e58-2416-4e0e-be68-cdd90c41d152, name: cse546-data-mining
+[I 15:49:59.481 NotebookApp] Starting buffering for ecf49e58-2416-4e0e-be68-cdd90c41d152:195ac0ad962148f39cbec8f9cb6e40e5
+[W 16:10:03.140 NotebookApp] Notebook assignment3.ipynb is not trusted
+[I 16:10:40.097 NotebookApp] Starting buffering for ecf49e58-2416-4e0e-be68-cdd90c41d152:92453ec608bf4720af00c3500f7964a1
+[I 16:10:40.334 NotebookApp] Kernel restarted: ecf49e58-2416-4e0e-be68-cdd90c41d152
+[I 16:10:40.344 NotebookApp] Restoring connection for ecf49e58-2416-4e0e-be68-cdd90c41d152:92453ec608bf4720af00c3500f7964a1
+[I 16:10:40.846 NotebookApp] Replaying 3 buffered messages
+[I 16:12:03.217 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:14:03.811 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:16:03.600 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:18:03.193 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:20:03.199 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:22:03.199 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:24:03.198 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:26:03.193 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:28:03.185 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:30:03.192 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:32:03.221 NotebookApp] Saving file at /assignment3.ipynb
+/Users/revanth/.venvs/cse546-data-mining/lib/python3.8/site-packages/nbformat/__init__.py:129: MissingIDFieldWarning: Code cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+  validate(nb)
+/Users/revanth/.venvs/cse546-data-mining/lib/python3.8/site-packages/notebook/services/contents/manager.py:353: MissingIDFieldWarning: Code cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+  validate_nb(model['content'])
+[I 16:34:03.220 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:36:03.228 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:42:03.224 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:44:03.217 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:46:03.684 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:48:03.221 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:50:03.218 NotebookApp] Saving file at /assignment3.ipynb
+[I 17:01:00.826 NotebookApp] Starting buffering for ecf49e58-2416-4e0e-be68-cdd90c41d152:92453ec608bf4720af00c3500f7964a1
+[I 17:01:02.984 NotebookApp] Restoring connection for ecf49e58-2416-4e0e-be68-cdd90c41d152:92453ec608bf4720af00c3500f7964a1
+[I 17:04:03.131 NotebookApp] Saving file at /assignment3.ipynb
+[I 17:08:03.124 NotebookApp] Saving file at /assignment3.ipynb
+[I 17:10:03.114 NotebookApp] Saving file at /assignment3.ipynb
+[I 17:12:03.123 NotebookApp] Saving file at /assignment3.ipynb
+[I 17:14:03.120 NotebookApp] Saving file at /assignment3.ipynb
+[I 17:16:03.116 NotebookApp] Saving file at /assignment3.ipynb
+[I 17:18:03.114 NotebookApp] Saving file at /assignment3.ipynb
+[I 17:20:03.108 NotebookApp] Saving file at /assignment3.ipynb
+[I 17:22:03.104 NotebookApp] Saving file at /assignment3.ipynb
+[I 17:24:03.105 NotebookApp] Saving file at /assignment3.ipynb
+[I 17:26:03.101 NotebookApp] Saving file at /assignment3.ipynb
+[I 17:30:03.181 NotebookApp] Saving file at /assignment3.ipynb
+[I 17:32:48.632 NotebookApp] Saving file at /assignment3.ipynb
+[I 17:34:03.183 NotebookApp] Saving file at /assignment3.ipynb
+[I 17:36:03.186 NotebookApp] Saving file at /assignment3.ipynb
+[I 17:38:03.184 NotebookApp] Saving file at /assignment3.ipynb
+[I 17:40:03.182 NotebookApp] Saving file at /assignment3.ipynb
+[I 19:08:03.193 NotebookApp] Saving file at /assignment3.ipynb
+[I 19:10:03.210 NotebookApp] Saving file at /assignment3.ipynb
+[I 19:12:34.355 NotebookApp] Saving file at /assignment3.ipynb
+[I 19:18:03.202 NotebookApp] Saving file at /assignment3.ipynb
+[I 19:20:03.216 NotebookApp] Saving file at /assignment3.ipynb
+[I 19:35:59.982 NotebookApp] Starting buffering for ecf49e58-2416-4e0e-be68-cdd90c41d152:92453ec608bf4720af00c3500f7964a1
+[I 19:36:01.795 NotebookApp] Restoring connection for ecf49e58-2416-4e0e-be68-cdd90c41d152:92453ec608bf4720af00c3500f7964a1
+[I 07:55:51.243 NotebookApp] Starting buffering for ecf49e58-2416-4e0e-be68-cdd90c41d152:92453ec608bf4720af00c3500f7964a1
+[I 07:55:52.970 NotebookApp] Restoring connection for ecf49e58-2416-4e0e-be68-cdd90c41d152:92453ec608bf4720af00c3500f7964a1
+[I 10:41:31.181 NotebookApp] Creating new notebook in 
+[I 10:41:31.554 NotebookApp] Kernel started: 4dbb44a7-1612-4df0-93e1-067b278ca3b3, name: cse546-data-mining
+[I 10:42:13.215 NotebookApp] Saving file at /assignment3.ipynb
+[I 10:43:18.154 NotebookApp] Starting buffering for ecf49e58-2416-4e0e-be68-cdd90c41d152:92453ec608bf4720af00c3500f7964a1
+[I 10:43:18.793 NotebookApp] Kernel restarted: ecf49e58-2416-4e0e-be68-cdd90c41d152
+[I 10:43:18.800 NotebookApp] Restoring connection for ecf49e58-2416-4e0e-be68-cdd90c41d152:92453ec608bf4720af00c3500f7964a1
+[I 10:43:19.805 NotebookApp] Replaying 3 buffered messages
+[I 10:43:32.354 NotebookApp] Saving file at /Untitled.ipynb
+[I 10:44:13.209 NotebookApp] Saving file at /assignment3.ipynb
+[I 10:46:13.203 NotebookApp] Saving file at /assignment3.ipynb
+[I 10:48:13.204 NotebookApp] Saving file at /assignment3.ipynb
+[I 10:50:13.208 NotebookApp] Saving file at /assignment3.ipynb
+[I 10:52:13.208 NotebookApp] Saving file at /assignment3.ipynb
+[I 10:54:13.206 NotebookApp] Saving file at /assignment3.ipynb
+[I 10:56:13.208 NotebookApp] Saving file at /assignment3.ipynb
+[I 10:58:13.640 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:00:13.209 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:02:13.214 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:04:13.216 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:06:13.204 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:08:13.250 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:10:13.186 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:12:13.182 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:14:13.180 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:16:13.657 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:18:13.179 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:20:13.179 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:22:38.636 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:24:13.177 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:26:13.175 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:30:13.326 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:32:13.178 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:34:13.178 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:36:13.324 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:38:13.172 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:40:13.176 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:42:13.177 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:44:13.173 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:46:13.172 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:48:13.174 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:50:13.172 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:52:13.323 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:54:13.171 NotebookApp] Saving file at /assignment3.ipynb
+[I 11:56:13.172 NotebookApp] Saving file at /assignment3.ipynb
+[I 12:30:13.165 NotebookApp] Saving file at /assignment3.ipynb
+[I 12:32:13.152 NotebookApp] Saving file at /assignment3.ipynb
+[I 12:34:13.151 NotebookApp] Saving file at /assignment3.ipynb
+[I 12:36:13.145 NotebookApp] Saving file at /assignment3.ipynb
+[I 12:37:31.490 NotebookApp] Saving file at /Untitled.ipynb
+[I 12:38:13.141 NotebookApp] Saving file at /assignment3.ipynb
+[I 12:39:31.491 NotebookApp] Saving file at /Untitled.ipynb
+[I 12:42:13.149 NotebookApp] Saving file at /assignment3.ipynb
+[I 12:44:13.138 NotebookApp] Saving file at /assignment3.ipynb
+[I 12:46:13.142 NotebookApp] Saving file at /assignment3.ipynb
+[I 12:47:31.492 NotebookApp] Saving file at /Untitled.ipynb
+[I 12:48:13.146 NotebookApp] Saving file at /assignment3.ipynb
+[I 12:49:31.491 NotebookApp] Saving file at /Untitled.ipynb
+[I 12:50:13.143 NotebookApp] Saving file at /assignment3.ipynb
+[I 12:52:13.140 NotebookApp] Saving file at /assignment3.ipynb
+[I 12:54:13.139 NotebookApp] Saving file at /assignment3.ipynb
+[I 12:56:13.151 NotebookApp] Saving file at /assignment3.ipynb
+[I 12:57:31.476 NotebookApp] Saving file at /Untitled.ipynb
+[I 12:58:13.131 NotebookApp] Saving file at /assignment3.ipynb
+[I 12:59:31.476 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:00:13.129 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:01:31.476 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:02:13.133 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:04:13.144 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:05:31.475 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:06:13.128 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:08:13.135 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:09:31.471 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:10:13.129 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:11:31.471 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:12:13.124 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:14:13.127 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:15:31.466 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:16:13.119 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:17:31.468 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:18:13.115 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:19:31.515 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:20:13.172 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:21:31.523 NotebookApp] Saving file at /Untitled.ipynb
+[I 13:22:13.142 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:24:13.161 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:28:13.162 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:30:13.210 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:32:13.163 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:34:13.162 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:36:13.165 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:38:13.165 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:44:13.170 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:46:13.207 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:48:13.198 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:50:13.199 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:52:13.191 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:54:13.200 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:56:13.196 NotebookApp] Saving file at /assignment3.ipynb
+[I 13:58:13.195 NotebookApp] Saving file at /assignment3.ipynb
+[I 14:00:13.191 NotebookApp] Saving file at /assignment3.ipynb
+[I 14:02:13.174 NotebookApp] Saving file at /assignment3.ipynb
+[I 14:02:20.857 NotebookApp] Kernel interrupted: ecf49e58-2416-4e0e-be68-cdd90c41d152
+[I 14:04:13.187 NotebookApp] Saving file at /assignment3.ipynb
+[I 14:06:13.185 NotebookApp] Saving file at /assignment3.ipynb
+[I 15:23:07.172 NotebookApp] Starting buffering for ecf49e58-2416-4e0e-be68-cdd90c41d152:92453ec608bf4720af00c3500f7964a1
+[I 15:23:07.173 NotebookApp] Starting buffering for 4dbb44a7-1612-4df0-93e1-067b278ca3b3:40dcac7ea19b4dfbbf7ee818d00ce306
+[I 15:23:08.663 NotebookApp] Restoring connection for ecf49e58-2416-4e0e-be68-cdd90c41d152:92453ec608bf4720af00c3500f7964a1
+[I 15:23:08.683 NotebookApp] Restoring connection for 4dbb44a7-1612-4df0-93e1-067b278ca3b3:40dcac7ea19b4dfbbf7ee818d00ce306
+[I 15:23:53.106 NotebookApp] Starting buffering for ecf49e58-2416-4e0e-be68-cdd90c41d152:92453ec608bf4720af00c3500f7964a1
+[I 15:23:54.146 NotebookApp] Kernel restarted: ecf49e58-2416-4e0e-be68-cdd90c41d152
+[I 15:23:54.154 NotebookApp] Restoring connection for ecf49e58-2416-4e0e-be68-cdd90c41d152:92453ec608bf4720af00c3500f7964a1
+[I 15:23:55.661 NotebookApp] Replaying 6 buffered messages
+[I 15:24:13.161 NotebookApp] Saving file at /assignment3.ipynb
+[I 15:26:13.157 NotebookApp] Saving file at /assignment3.ipynb
+[I 15:28:13.158 NotebookApp] Saving file at /assignment3.ipynb
+[I 15:30:13.169 NotebookApp] Saving file at /assignment3.ipynb
+[I 15:32:13.192 NotebookApp] Saving file at /assignment3.ipynb
+[I 15:34:14.829 NotebookApp] Saving file at /assignment3.ipynb
+[I 15:36:13.163 NotebookApp] Saving file at /assignment3.ipynb
+[I 15:38:13.163 NotebookApp] Saving file at /assignment3.ipynb
+[I 15:40:13.177 NotebookApp] Saving file at /assignment3.ipynb
+[I 15:42:13.148 NotebookApp] Saving file at /assignment3.ipynb
+[I 15:44:56.302 NotebookApp] Starting buffering for 4dbb44a7-1612-4df0-93e1-067b278ca3b3:40dcac7ea19b4dfbbf7ee818d00ce306
+[W 15:46:00.531 NotebookApp] Notebook Untitled.ipynb is not trusted
+[I 15:46:19.577 NotebookApp] Starting buffering for 4dbb44a7-1612-4df0-93e1-067b278ca3b3:74c5fc232cf84196b3669e13d7996ddb
+[I 15:50:13.150 NotebookApp] Saving file at /assignment3.ipynb
+[I 15:52:13.157 NotebookApp] Saving file at /assignment3.ipynb
+[I 15:54:13.142 NotebookApp] Saving file at /assignment3.ipynb
+[I 15:56:13.138 NotebookApp] Saving file at /assignment3.ipynb
+[I 15:58:13.133 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:04:13.142 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:06:13.148 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:08:13.133 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:10:13.136 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:12:13.135 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:14:13.133 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:16:13.125 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:18:13.127 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:20:13.134 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:22:13.165 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:24:13.159 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:26:13.151 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:28:13.153 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:30:13.146 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:40:13.143 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:42:13.151 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:44:13.151 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:46:13.149 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:48:13.156 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:52:13.156 NotebookApp] Saving file at /assignment3.ipynb
+[I 16:52:43.558 NotebookApp] Starting buffering for ecf49e58-2416-4e0e-be68-cdd90c41d152:92453ec608bf4720af00c3500f7964a1
+[I 16:52:45.485 NotebookApp] Restoring connection for ecf49e58-2416-4e0e-be68-cdd90c41d152:92453ec608bf4720af00c3500f7964a1
+[I 16:54:13.179 NotebookApp] Saving file at /assignment3.ipynb
+[I 18:02:13.102 NotebookApp] Saving file at /assignment3.ipynb
+[W 18:03:59.678 NotebookApp] Notebook Untitled.ipynb is not trusted
+[I 18:04:13.103 NotebookApp] Saving file at /assignment3.ipynb
+[I 18:04:24.398 NotebookApp] Starting buffering for 4dbb44a7-1612-4df0-93e1-067b278ca3b3:d5d13ef78b01473298621734e83a59a2
+[W 18:06:06.015 NotebookApp] Notebook Untitled.ipynb is not trusted
+[I 18:06:13.102 NotebookApp] Saving file at /assignment3.ipynb
+[I 18:06:46.297 NotebookApp] Starting buffering for 4dbb44a7-1612-4df0-93e1-067b278ca3b3:0d0351cec3a240a19143993dba5c85fe
+[I 18:14:13.096 NotebookApp] Saving file at /assignment3.ipynb
+[I 18:16:13.097 NotebookApp] Saving file at /assignment3.ipynb
+[I 18:18:13.108 NotebookApp] Saving file at /assignment3.ipynb
+[I 18:24:13.098 NotebookApp] Saving file at /assignment3.ipynb
+[I 18:26:13.113 NotebookApp] Saving file at /assignment3.ipynb
+[I 18:28:13.095 NotebookApp] Saving file at /assignment3.ipynb
+[I 18:30:13.094 NotebookApp] Saving file at /assignment3.ipynb
+[I 18:32:13.084 NotebookApp] Saving file at /assignment3.ipynb
+[I 18:34:13.086 NotebookApp] Saving file at /assignment3.ipynb
+[I 18:36:13.563 NotebookApp] Saving file at /assignment3.ipynb
+[I 18:38:13.093 NotebookApp] Saving file at /assignment3.ipynb
+[I 18:40:13.089 NotebookApp] Saving file at /assignment3.ipynb
+[I 18:42:13.089 NotebookApp] Saving file at /assignment3.ipynb
+[I 18:46:13.134 NotebookApp] Saving file at /assignment3.ipynb
+[I 18:48:13.131 NotebookApp] Saving file at /assignment3.ipynb
+[I 18:50:13.133 NotebookApp] Saving file at /assignment3.ipynb
+[I 18:52:13.130 NotebookApp] Saving file at /assignment3.ipynb
+[I 18:54:13.130 NotebookApp] Saving file at /assignment3.ipynb
+[I 18:56:13.140 NotebookApp] Saving file at /assignment3.ipynb
+[I 18:58:13.128 NotebookApp] Saving file at /assignment3.ipynb
+[I 19:00:13.129 NotebookApp] Saving file at /assignment3.ipynb
+[I 19:02:13.134 NotebookApp] Saving file at /assignment3.ipynb
+[I 19:04:13.132 NotebookApp] Saving file at /assignment3.ipynb
+[I 19:06:13.132 NotebookApp] Saving file at /assignment3.ipynb
+[I 19:08:13.133 NotebookApp] Saving file at /assignment3.ipynb
+[I 19:10:13.131 NotebookApp] Saving file at /assignment3.ipynb
+[I 19:12:13.129 NotebookApp] Saving file at /assignment3.ipynb
+[I 19:14:13.129 NotebookApp] Saving file at /assignment3.ipynb
+[I 19:16:13.129 NotebookApp] Saving file at /assignment3.ipynb
+[I 19:18:13.125 NotebookApp] Saving file at /assignment3.ipynb
+[I 19:20:13.122 NotebookApp] Saving file at /assignment3.ipynb
+[I 19:22:13.119 NotebookApp] Saving file at /assignment3.ipynb
+[I 19:24:13.130 NotebookApp] Saving file at /assignment3.ipynb
+[I 19:26:13.128 NotebookApp] Saving file at /assignment3.ipynb
+[I 21:28:13.203 NotebookApp] Saving file at /assignment3.ipynb
+[I 21:30:13.180 NotebookApp] Saving file at /assignment3.ipynb
+[I 21:32:13.188 NotebookApp] Saving file at /assignment3.ipynb
+[I 21:34:13.187 NotebookApp] Saving file at /assignment3.ipynb
+[I 21:36:13.189 NotebookApp] Saving file at /assignment3.ipynb
+[I 21:38:13.194 NotebookApp] Saving file at /assignment3.ipynb
+[I 21:40:56.998 NotebookApp] Saving file at /assignment3.ipynb
+[I 21:46:13.190 NotebookApp] Saving file at /assignment3.ipynb
+[I 21:48:13.184 NotebookApp] Saving file at /assignment3.ipynb
+[W 21:50:09.308 NotebookApp] Notebook Untitled.ipynb is not trusted
+[I 21:50:13.191 NotebookApp] Saving file at /assignment3.ipynb
+[I 21:50:16.264 NotebookApp] Starting buffering for 4dbb44a7-1612-4df0-93e1-067b278ca3b3:97ec95803514426a81fc0c79dbb15014
+[I 21:52:13.197 NotebookApp] Saving file at /assignment3.ipynb
+[W 21:53:05.522 NotebookApp] Notebook Untitled.ipynb is not trusted
+[I 21:58:13.197 NotebookApp] Saving file at /assignment3.ipynb
+[I 22:00:13.197 NotebookApp] Saving file at /assignment3.ipynb
+[I 22:04:13.199 NotebookApp] Saving file at /assignment3.ipynb
+[I 22:06:13.471 NotebookApp] Saving file at /assignment3.ipynb
+[I 22:08:13.192 NotebookApp] Saving file at /assignment3.ipynb
+[I 22:10:13.173 NotebookApp] Saving file at /assignment3.ipynb
+[I 22:12:13.178 NotebookApp] Saving file at /assignment3.ipynb
+[I 23:38:13.154 NotebookApp] Saving file at /assignment3.ipynb
+[I 23:40:13.139 NotebookApp] Saving file at /assignment3.ipynb
+[I 23:42:13.134 NotebookApp] Saving file at /assignment3.ipynb
+[I 23:44:13.146 NotebookApp] Saving file at /assignment3.ipynb
+[I 23:46:13.132 NotebookApp] Saving file at /assignment3.ipynb
+[I 23:48:13.144 NotebookApp] Saving file at /assignment3.ipynb
+[I 23:50:13.134 NotebookApp] Saving file at /assignment3.ipynb
+[I 23:52:13.141 NotebookApp] Saving file at /assignment3.ipynb
+[I 23:54:13.145 NotebookApp] Saving file at /assignment3.ipynb
+[I 23:56:13.148 NotebookApp] Saving file at /assignment3.ipynb
+[I 23:58:13.143 NotebookApp] Saving file at /assignment3.ipynb
+[I 23:58:17.312 NotebookApp] Starting buffering for 4dbb44a7-1612-4df0-93e1-067b278ca3b3:5367f0cb64564ceea1e7b1cfacea2a5f
+[I 00:41:57.272 NotebookApp] Starting buffering for ecf49e58-2416-4e0e-be68-cdd90c41d152:92453ec608bf4720af00c3500f7964a1
+[I 00:41:59.296 NotebookApp] Restoring connection for ecf49e58-2416-4e0e-be68-cdd90c41d152:92453ec608bf4720af00c3500f7964a1
+[W 00:42:21.050 NotebookApp] Notebook Untitled.ipynb is not trusted
+[I 00:48:13.147 NotebookApp] Saving file at /assignment3.ipynb
+[I 00:50:13.124 NotebookApp] Saving file at /assignment3.ipynb
+[I 00:52:13.135 NotebookApp] Saving file at /assignment3.ipynb
+[I 00:54:13.149 NotebookApp] Saving file at /assignment3.ipynb
+[I 00:56:13.136 NotebookApp] Saving file at /assignment3.ipynb
+[I 00:58:13.136 NotebookApp] Saving file at /assignment3.ipynb
+[I 01:02:13.134 NotebookApp] Saving file at /assignment3.ipynb
+[I 01:04:13.135 NotebookApp] Saving file at /assignment3.ipynb
+[I 01:05:58.277 NotebookApp] Saving file at /assignment3.ipynb
+[I 01:06:13.124 NotebookApp] Saving file at /assignment3.ipynb
+[I 01:06:21.065 NotebookApp] Saving file at /assignment3.ipynb
+[I 01:08:13.135 NotebookApp] Saving file at /assignment3.ipynb
+[I 01:10:13.129 NotebookApp] Saving file at /assignment3.ipynb
+[I 01:12:13.140 NotebookApp] Saving file at /assignment3.ipynb
+[I 01:15:07.459 NotebookApp] Starting buffering for 4dbb44a7-1612-4df0-93e1-067b278ca3b3:55e14c85e41044c7aa1fd1c7ce21be65
+[W 01:15:58.206 NotebookApp] Notebook Untitled.ipynb is not trusted
+[I 01:18:13.148 NotebookApp] Saving file at /assignment3.ipynb
+[I 01:19:42.980 NotebookApp] Starting buffering for 4dbb44a7-1612-4df0-93e1-067b278ca3b3:f218043efc4945cd8c59ba049fec3814
+[I 01:20:13.147 NotebookApp] Saving file at /assignment3.ipynb
+[W 01:22:15.951 NotebookApp] Notebook Untitled.ipynb is not trusted
+[I 01:24:13.147 NotebookApp] Saving file at /assignment3.ipynb
+[I 01:26:13.140 NotebookApp] Saving file at /assignment3.ipynb
+[I 01:28:08.586 NotebookApp] Starting buffering for 4dbb44a7-1612-4df0-93e1-067b278ca3b3:4631989f8cde493fbd4e8aa7a16ab401
+[I 01:28:13.144 NotebookApp] Saving file at /assignment3.ipynb
+[W 01:28:45.123 NotebookApp] Notebook Untitled.ipynb is not trusted
+[I 01:30:13.143 NotebookApp] Saving file at /assignment3.ipynb
+[I 01:32:13.146 NotebookApp] Saving file at /assignment3.ipynb
+[I 01:34:13.150 NotebookApp] Saving file at /assignment3.ipynb
+[I 01:36:13.152 NotebookApp] Saving file at /assignment3.ipynb
+[I 01:40:13.150 NotebookApp] Saving file at /assignment3.ipynb
+[I 01:42:13.140 NotebookApp] Saving file at /assignment3.ipynb
+[I 01:44:13.153 NotebookApp] Saving file at /assignment3.ipynb
+[I 01:46:13.145 NotebookApp] Saving file at /assignment3.ipynb
+[I 01:50:13.152 NotebookApp] Saving file at /assignment3.ipynb
+[I 01:52:13.137 NotebookApp] Saving file at /assignment3.ipynb
+[I 01:54:13.148 NotebookApp] Saving file at /assignment3.ipynb
+[I 01:56:13.152 NotebookApp] Saving file at /assignment3.ipynb
+[I 02:00:13.150 NotebookApp] Saving file at /assignment3.ipynb
+[I 02:02:13.155 NotebookApp] Saving file at /assignment3.ipynb
+[I 02:04:13.149 NotebookApp] Saving file at /assignment3.ipynb
+[I 02:06:13.153 NotebookApp] Saving file at /assignment3.ipynb
+[I 02:08:13.184 NotebookApp] Saving file at /assignment3.ipynb
+[I 02:10:13.163 NotebookApp] Saving file at /assignment3.ipynb
+[I 02:12:13.159 NotebookApp] Saving file at /assignment3.ipynb
+[I 02:12:45.706 NotebookApp] Starting buffering for 4dbb44a7-1612-4df0-93e1-067b278ca3b3:40eb22c4020b49cfb9ab59c7ff51bc01
+[I 02:14:13.167 NotebookApp] Saving file at /assignment3.ipynb
+[I 02:16:13.170 NotebookApp] Saving file at /assignment3.ipynb
+[I 02:18:13.160 NotebookApp] Saving file at /assignment3.ipynb
+[I 02:20:13.169 NotebookApp] Saving file at /assignment3.ipynb
+[W 02:20:14.688 NotebookApp] Notebook Untitled.ipynb is not trusted
+[I 02:22:13.170 NotebookApp] Saving file at /assignment3.ipynb
+[I 02:24:13.169 NotebookApp] Saving file at /assignment3.ipynb
+[I 02:26:13.640 NotebookApp] Saving file at /assignment3.ipynb
+[I 02:26:29.305 NotebookApp] Kernel shutdown: 4dbb44a7-1612-4df0-93e1-067b278ca3b3
+[W 02:26:29.624 NotebookApp] delete /Untitled.ipynb
+[W 02:26:29.653 NotebookApp] 404 DELETE /api/sessions/d165cd35-6583-4270-b2f8-3138feb5785d (::1): Session not found: session_id='d165cd35-6583-4270-b2f8-3138feb5785d'
+[W 02:26:29.653 NotebookApp] Session not found: session_id='d165cd35-6583-4270-b2f8-3138feb5785d'
+[W 02:26:29.653 NotebookApp] 404 DELETE /api/sessions/d165cd35-6583-4270-b2f8-3138feb5785d (::1) 29.380000ms referer=http://localhost:8888/notebooks/Untitled.ipynb
+[W 02:26:30.935 NotebookApp] Notebook assignment3.ipynb is not trusted
+[W 02:26:43.306 NotebookApp] Notebook assignment3.ipynb is not trusted
