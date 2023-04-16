@@ -51,7 +51,7 @@ import datetime as dt
 inf = dt.datetime(2100, 12, 12)
 
 
-# In[124]:
+# In[7]:
 
 
 def extract_meal_start_times(insulin_df, cgm_df):
@@ -84,7 +84,7 @@ def extract_meal_start_times(insulin_df, cgm_df):
 meal_df = extract_meal_start_times(insulin_df, cgm_df)
 
 
-# In[423]:
+# In[8]:
 
 
 def compute_meal_data_matrix(cgm_df, meal_df):
@@ -121,20 +121,20 @@ def compute_meal_data_matrix(cgm_df, meal_df):
     return feature_matrix
 
 
-# In[424]:
+# In[9]:
 
 
 meal_data_matrix = compute_meal_data_matrix(cgm_df, meal_df)
 
 
-# In[215]:
+# In[10]:
 
 
 from scipy.stats import entropy, iqr
 from scipy.signal import periodogram
 
 
-# In[267]:
+# In[11]:
 
 
 def compute_meal_feature_matrix(meal_data_matrix):
@@ -180,35 +180,35 @@ def compute_meal_feature_matrix(meal_data_matrix):
     return features
 
 
-# In[317]:
+# In[12]:
 
 
 meal_feature_matrix = compute_meal_feature_matrix(meal_data_matrix)
 
 
-# In[319]:
+# In[13]:
 
 
 from sklearn.preprocessing import StandardScaler
 
 
-# In[322]:
+# In[14]:
 
 
 scaler = StandardScaler()
-meal_feature_matrix_scaled = scaler.fit_transform(meal_feature_matrix)
+meal_feature_matrix_scaled = pd.DataFrame(scaler.fit_transform(meal_feature_matrix))
 
 
 # 
 # ## KMeans Clustering
 
-# In[ ]:
+# In[15]:
 
 
 from sklearn.cluster import KMeans
 
 
-# In[323]:
+# In[16]:
 
 
 kmeans = KMeans(n_clusters=7, n_init=20, max_iter=100)
@@ -221,26 +221,26 @@ labels = kmeans.labels_
 cluster_centers = kmeans.cluster_centers_
 
 
-# In[329]:
+# In[17]:
 
 
 from sklearn.metrics.cluster import contingency_matrix
 
 
-# In[331]:
+# In[18]:
 
 
 ground_truth = meal_data_matrix['label']
 cont_matrix = contingency_matrix(ground_truth, labels)
 
 
-# In[ ]:
+# In[19]:
 
 
 num_samples = len(meal_data_matrix)
 
 
-# In[480]:
+# In[20]:
 
 
 # Calculate the SSE
@@ -261,50 +261,49 @@ print("KMeans Entropy: ", kmeans_entropy)
 # 
 # ## DBSCAN Clustering
 
-# In[467]:
+# In[21]:
 
 
 from sklearn.cluster import DBSCAN
 from sklearn.metrics import mean_squared_error
 
 
-# In[443]:
+# In[22]:
 
 
-dbscan = DBSCAN(eps=2.4, min_samples=5).fit(meal_feature_matrix_scaled)
+dbscan = DBSCAN(eps=1.4, min_samples=4).fit(meal_feature_matrix_scaled)
 
 
-# In[451]:
+# In[23]:
 
 
-labels = dbscan.labels_.astype(float)
+dbscan_labels = dbscan.labels_.astype(float)
 
 
-# In[453]:
+# In[24]:
 
 
-labels[labels == -1] = np.nan
+dbscan_labels[dbscan_labels == -1] = np.nan
 
 
-# In[456]:
+# In[25]:
 
 
-cont_matrix = pd.crosstab(ground_truth, labels, dropna = False)
+cont_matrix = pd.crosstab(ground_truth, dbscan_labels, dropna = False)
 
 
-# In[481]:
+# In[26]:
 
 
 # Calculate the SSE
-centroids = meal_feature_matrix_scaled.copy()
 
 # Change np.nan back to -1
-labels = np.nan_to_num(labels, nan=-1)
+dbscan_labels = np.nan_to_num(dbscan_labels, nan=-1)
 
-for label in np.unique(labels[1:]):
-    centroids[labels == label] =  centroids[labels == label].mean(axis=0)
-    
-dbscan_sse = mean_squared_error(meal_feature_matrix_scaled, centroids)
+meal_feature_matrix_scaled['label'] = dbscan_labels
+
+# Calculate the SSE for each cluster
+dbscan_sse = meal_feature_matrix_scaled[meal_feature_matrix_scaled['label'] != -1].groupby(['label']).apply(lambda x: ((x.iloc[:,:-1] - x.iloc[:,:-1].mean()) ** 2).sum().sum()).sum()
 
 # Calculate the purity
 dbscan_purity = np.sum(np.amax(cont_matrix, axis=0)) / num_samples
@@ -318,10 +317,16 @@ print("DBSCAN Purity: ", dbscan_purity)
 print("DBSCAN Entropy: ", dbscan_entropy)
 
 
-# In[482]:
+# In[27]:
 
 
 # Save the clustering evaluation results in a CSV file
 results = np.array([[kmeans_sse, dbscan_sse, kmeans_entropy, dbscan_entropy, kmeans_purity, dbscan_purity]])
 np.savetxt("Results.csv", results, delimiter=",")
+
+
+# In[28]:
+
+
+
 
