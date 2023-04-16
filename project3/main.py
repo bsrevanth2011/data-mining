@@ -35,8 +35,6 @@ def load_cgm_data():
 
 
 insulin_df, cgm_df = load_insulin_data(), load_cgm_data()
-display(insulin_df.size)
-display(cgm_df.size)
 
 
 # In[5]:
